@@ -7,7 +7,7 @@ jobs:
     name: Test ${{ matrix.java }}
     runs-on: ubuntu-latest
 
-    if: !always()
+    if: false
 
     strategy:
       matrix:
